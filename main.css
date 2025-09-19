@@ -1,0 +1,47 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+h1, h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+
+.centre {
+        text-align:center;
+        }
+
+
+
+.danslasection {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+
+
+.liste {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.elt-lit {
+  float: left;
+}
+
+.elt-liste {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    }
