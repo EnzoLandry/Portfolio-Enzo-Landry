@@ -18,9 +18,9 @@ h1, h2, h3 {
 
 
 .danslasection {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
+            max-width: 1600px;
+            margin: 30px auto;
+            padding: 30px;
             background: #ffffff;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -28,7 +28,7 @@ h1, h2, h3 {
 
 
 
-.liste {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,7 +36,7 @@ h1, h2, h3 {
   background-color: #333333;
 }
 
-.elt-lit {
+nav ul > li {
   float: left;
 }
 
@@ -44,4 +44,23 @@ h1, h2, h3 {
     display: block;
     color: white;
     padding: 14px 16px;
+    text-decoration: none;
+  
     }
+
+.elt-aligne {
+        align-items: center;
+    }
+.image {
+  max-width: 100px;
+  align-items: center;
+}
+
+.skill {
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+        }
