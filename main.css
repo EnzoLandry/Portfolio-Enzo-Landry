@@ -101,7 +101,7 @@ table th,table td {
             border: 1px solid #ddd;
         }
 
-table tr:hover {
+table td:hover ,table th:hover{
             background-color: #f1f1f1;
             cursor: pointer;
   }
