@@ -54,6 +54,7 @@ nav ul > li {
 .image {
   max-width: 100px;
   align-items: center;
+  
 }
 
 .skill {
@@ -64,3 +65,43 @@ nav ul > li {
     border-radius: 5px;
     font-size: 0.9em;
         }
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover {
+  color: rgb(188, 214, 188)
+}
+
+.alignementtexte{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.projet{
+  width: 150px;
+  border-radius: 8px;
+  padding: 15px;
+  flex-wrap: wrap;
+
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 16px;
+}
+
+table th,table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+table tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+  }
