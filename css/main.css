@@ -1,10 +1,10 @@
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 50px; /* Espace pour la navbar fixe car sinon c trop chiant*/
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
 
 h1, h2, h3 {
             text-align: center;
@@ -28,12 +28,22 @@ h1, h2, h3 {
 
 
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #333333;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  display: flex;
+  justify-content: flex-start;
 }
 
 nav ul > li {
@@ -41,12 +51,11 @@ nav ul > li {
 }
 
 .elt-liste {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-  
-    }
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 .elt-aligne {
         align-items: center;
@@ -70,8 +79,13 @@ p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.elt-liste:hover {
+  background-color: #444;
+  color: rgb(188, 214, 188);
+}
+
 a:hover {
-  color: rgb(188, 214, 188)
+  color: rgb(188, 214, 188);
 }
 
 .alignementtexte{
@@ -80,12 +94,40 @@ a:hover {
 
 }
 
-.projet{
-  width: 150px;
-  border-radius: 8px;
-  padding: 15px;
-  flex-wrap: wrap;
+.projet-section {
+    margin: 2rem 0;
+}
 
+.projet {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.projet h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.projet ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #666;
+}
+
+.apprentissage {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.apprentissage ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #666;
 }
 
 table {
