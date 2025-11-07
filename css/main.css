@@ -94,40 +94,12 @@ a:hover {
 
 }
 
-.projet-section {
-    margin: 2rem 0;
-}
+.projet{
+  width: 150px;
+  border-radius: 8px;
+  padding: 15px;
+  flex-wrap: wrap;
 
-.projet {
-    background: white;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 15px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.projet h3 {
-    color: #333;
-    margin-top: 0;
-}
-
-.projet ul {
-    list-style: disc;
-    margin-left: 20px;
-    color: #666;
-}
-
-.apprentissage {
-    background: #f8f8f8;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 15px 0;
-}
-
-.apprentissage ul {
-    list-style: disc;
-    margin-left: 20px;
-    color: #666;
 }
 
 table {
