@@ -1,56 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Enzo Landry</title>
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/projet1.css" rel="stylesheet">
 </head>
 <body>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html" class="elt-liste">
-                        Présentation
-                    </a>
-                </li>
-                <li>
-                    <a href="parcours.html" class="elt-liste">
-                        Parcours
-                    </a>
-                </li>
-                <li> 
-                    <a href="projet.html" class="elt-liste">
-                        Projet
-                    </a>
-                </li>
-                <li>
-                    <a href="galerie.html" class="elt-liste">
-                        Galerie
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    <section class="danslasection">
-        <header>
-            <h1>
-                Projet
-            </h1>
-        </header>
-        <main>
-            <div class="projet"></div>
-        </main>
-        </p>
-        <footer>
-            <p>
-                <a href="https://github.com/EnzoLandry" target="_blank">
-                    &copy;Landry Enzo
-                </a>
-            </p>
-        </footer>
-    </section>
-    
-        
+    <nav>
+        <ul>
+            <li><a href="index.html" class="elt-liste">Présentation</a></li>
+            <li><a href="parcours.html" class="elt-liste">Parcours</a></li>
+            <li><a href="projet.html" class="elt-liste">Projet</a></li>
+            <li><a href="galerie.html" class="elt-liste">Galerie</a></li>
+        </ul>
+    </nav>
+ 
 
+    <main>
+        <section class="danslasection">
+            <header>
+                <h1>Mes projets</h1>
+                <p class="intro-text">Voici deux petits projets Python que j'ai réalisés pendant ma première année : Azules et Motus.</p>
+            </header>
+
+            <section class="projet-section">
+                <h2>Azules</h2>
+                <div class="projet">
+                    <h3>Azules — petit jeu de plateau (CLI)</h3>
+                    <p>Version en ligne de commande inspirée du jeu Azules. Le joueur place des tuiles et essaie d'obtenir des motifs.</p>
+                    <ul>
+                        <li>Langage : Python</li>
+                        <li>Concepts : listes, boucles, fonctions</li>
+                        <li>Niveau : débutant / intermédiaire</li>
+                    </ul>
+                    <p><a href="#" class="projet-link">Voir le code (à ajouter)</a></p>
+                </div>
+            </section>
+
+            <section class="projet-section">
+                <h2>Motus</h2>
+                <div class="projet">
+                    <h3>Motus — jeu de lettres</h3>
+                    <p>Jeu de devinette de mots similaire à Wordle/Motus. L'utilisateur doit deviner un mot en un nombre limité d'essais.</p>
+                    <ul>
+                        <li>Langage : Python</li>
+                        <li>Concepts : manipulation de chaînes, conditions, boucles</li>
+                        <li>Niveau : débutant</li>
+                    </ul>
+                    <p><a href="#" class="projet-link">Voir le code (à ajouter)</a></p>
+                </div>
+            </section>
+
+            <footer>
+                <p>
+                    <a href="https://github.com/EnzoLandry" target="_blank">&copy; Enzo Landry</a>
+                </p>
+            </footer>
+        </section>
+    </main>
+
+   
 </body>
 </html>
