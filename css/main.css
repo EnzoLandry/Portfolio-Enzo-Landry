@@ -9,7 +9,11 @@ body {
 h1, h2, h3 {
             text-align: center;
             color: #333;
-        }
+            font-family: "Arial", serif;
+            font-weight: 1400;
+            font-style: normal;
+         
+          }
 
 .centre {
         text-align:center;
@@ -43,7 +47,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   display: flex;
-  justify-content: flex-start;
+  justify-content: start;
 }
 
 nav ul > li {
@@ -102,23 +106,7 @@ a:hover {
 
 }
 
-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            text-align: center;
-            font-size: 16px;
-}
 
-table th,table td {
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
-
-table td:hover ,table th:hover{
-            background-color: #f1f1f1;
-            cursor: pointer;
-  }
 
 .imagee {
   width:150px;
@@ -146,11 +134,16 @@ table td:hover ,table th:hover{
   display:flex;
   gap:10px;
 }
+
 figure {
   width:350px;
-  border : 2px solid #000000;
-  border-radius:2%;
+  border-radius:5%;
   flex-direction: column;
+  transform: translateX(3px);
+
+}
+figure:hover{
+  border : 2px solid #27ae60;
 }
 
 figcaption{
@@ -159,4 +152,22 @@ figcaption{
 
 figure img, figure video{
   width:100%
+}
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.section-title {
+    color: #27ae60;
+    font-size: 24px;
+    margin-bottom: 20px;
 }

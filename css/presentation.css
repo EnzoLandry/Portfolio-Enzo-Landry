@@ -45,7 +45,7 @@
 }
 
 .skill-tag {
-    background: #f0f9f4;
+    background: #333333;
     color: #27ae60;
     padding: 8px 16px;
     border-radius: 20px;
@@ -55,9 +55,26 @@
 .contact-link {
     color: #27ae60;
     text-decoration: none;
-    border-bottom: 2px solid transparent;
 }
 
 .contact-link:hover {
-    border-color: #27ae60;
+    color: #040e08;
+    text-decoration: none;
+}
+.contact-link:active{
+    background-color: rgb(81, 19, 105);
+}
+
+input:focus{
+    border: 2px solid #27ae60;
+    background-color: #f4f4f400;
+}
+button{
+    background-color: linear-gradient(160deg,#9fd890,#27ae60);
+    transition: background-color 5s ease , border 5s ease;
+}
+button:hover{
+    background-color: linear-gradient(160deg,#f4f4f4,#000000);
+    border: 5px solid #000000;
+  
 }
